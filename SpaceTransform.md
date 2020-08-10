@@ -2,8 +2,8 @@
 
 ## In fact, all you need is a matrix.
 设：现有一个坐标系A，原点在<img src="https://latex.codecogs.com/gif.latex?(O_a,O_b,O_c)" title="(O_a,O_b,O_c)" /> ，其x轴、y轴和z轴在世界坐标系下的表示分别为<a href="https://www.codecogs.com/eqnedit.php?latex=(O_{x_x},O_{x_y},O_{x_z})" target="_blank"><img src="https://latex.codecogs.com/png.latex?(O_{x_x},O_{x_y},O_{x_z})" title="(O_{x_x},O_{x_y},O_{x_z})" /></a>，<a href="https://www.codecogs.com/eqnedit.php?latex=(O_{y_x},O_{y_y},O_{y_z})" target="_blank"><img src="https://latex.codecogs.com/png.latex?(O_{y_x},O_{y_y},O_{y_z})" title="(O_{y_x},O_{y_y},O_{y_z})" /></a>， <a href="https://www.codecogs.com/eqnedit.php?latex=(O_{z_x},O_{z_y},O_{z_z})" target="_blank"><img src="https://latex.codecogs.com/png.latex?(O_{z_x},O_{z_y},O_{z_z})" title="(O_{z_x},O_{z_y},O_{z_z})" /></a>。显然，作为一个坐标系，其x轴、y轴和z轴是互相垂直的。
-## 假设现在有一个在世界坐标系中的点，它在上述坐标系A的表示应该是怎样的呢？
-现在，我们需要在坐标系A的语境下来表示这个点。
+## 假设现在有一个在世界坐标系中的向量，它在上述坐标系A的表示应该是怎样的呢？
+现在，我们需要在坐标系A的语境下来表示这个向量。
 <br>对于坐标系A来说，世界坐标系下的向量<img src="https://latex.codecogs.com/gif.latex?(O_{x_x},O_{x_y},O_{x_z})" title="(O_{x_x},O_{x_y},O_{x_z})" /> 正是坐标系A下的x轴，为了简单，可以将它假定为一个单位向量，即坐标系A下的<img src="https://latex.codecogs.com/gif.latex?(1,0,0)" title="(1,0,0)" />。
 <br>假设存在一个矩阵M，这个矩阵有三个特点：
 <br>能够与世界坐标系下的<img src="https://latex.codecogs.com/gif.latex?(O_{x_x},O_{x_y},O_{x_z})" title="(O_{x_x},O_{x_y},O_{x_z})" /> 相乘得到坐标系A下的<img src="https://latex.codecogs.com/gif.latex?(1,0,0)" title="(1,0,0)" />，即坐标系A下的x轴<br>
