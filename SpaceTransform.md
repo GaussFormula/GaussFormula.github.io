@@ -1,3 +1,4 @@
 # Local Space To World Space
 
 ## In fact, all you need is a matrix.
+设：现有一个坐标系，原点在<img src="https://latex.codecogs.com/gif.latex?(O_{x},O_y,O_z)" title="(O_{x},O_y,O_z)" /> ，其x轴、y轴和z轴在世界坐标系下的表示分别为<a href="https://www.codecogs.com/eqnedit.php?latex=(O_{x_x},O_{x_y},O_{x_z})" target="_blank"><img src="https://latex.codecogs.com/png.latex?(O_{x_x},O_{x_y},O_{x_z})" title="(O_{x_x},O_{x_y},O_{x_z})" /></a>，<a href="https://www.codecogs.com/eqnedit.php?latex=(O_{y_x},O_{y_y},O_{y_z})" target="_blank"><img src="https://latex.codecogs.com/png.latex?(O_{y_x},O_{y_y},O_{y_z})" title="(O_{y_x},O_{y_y},O_{y_z})" /></a>， <a href="https://www.codecogs.com/eqnedit.php?latex=(O_{z_x},O_{z_y},O_{z_z})" target="_blank"><img src="https://latex.codecogs.com/png.latex?(O_{z_x},O_{z_y},O_{z_z})" title="(O_{z_x},O_{z_y},O_{z_z})" /></a>
